@@ -5,6 +5,9 @@ Pytorch implementation based on ESPNet (https://github.com/espnet/espnet) toolki
 paper: https://arxiv.org/abs/2203.16852
 
 demo: https://imdanboy.github.io/interspeech2022/
+<p align="center"><img src="figures/jets_fig.002.jpeg" alt="figure" width="500"/></p>
+
+JETS consists of FastSpeech2, HiFi-GAN and an Alignment Module. The model files are located at `espnet2/gan_tts/jets/`
 
 ## How to run
 tested on 4 V100 gpu
