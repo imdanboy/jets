@@ -16,13 +16,14 @@ if [ "${fs}" -eq 22050 ]; then
 else
     opts="--audio_format flac "
 fi
+opts+="--min_wav_duration 0.8 --tts_task gan_tts --write_collected_feats true "
 
 train_set=tr_no_dev
 valid_set=dev
 test_sets="dev eval1"
 
-train_config=conf/train.yaml
-inference_config=conf/decode.yaml
+train_config=conf/tuning/train_jets.yaml
+inference_config=
 
 # g2p=g2p_en # Include word separator
 g2p=g2p_en_no_space # Include no word separator

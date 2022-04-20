@@ -11,9 +11,11 @@ set -o pipefail
 
 # Feature related
 fs=24000
-n_fft=2048
-n_shift=300
-win_length=1200
+n_fft=1024
+n_shift=256
+win_length=null
+
+opts="--min_wav_duration 0.8 --tts_task gan_tts --write_collected_feats true "
 
 # Data prep related
 text_format=raw  # Use "raw" or "phn". If use "phn", convert to phn in data prep.
@@ -29,8 +31,8 @@ valid_set=dev${dset_suffix}
 test_sets="dev${dset_suffix} eval1${dset_suffix}"
 
 # Config related
-train_config=conf/train.yaml
-inference_config=conf/decode.yaml
+train_config=conf/tuning/train_jets.yaml
+inference_config=
 
 # NOTE(kan-bayashi): Make sure that you use text_format=raw
 #   if you want to use token_type=char.
@@ -65,4 +67,4 @@ feats_normalize=global_mvn
     --valid_set "${valid_set}" \
     --test_sets "${test_sets}" \
     --srctexts "data/${train_set}/text" \
-    "$@"
+    ${opts} "$@"
