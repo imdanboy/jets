@@ -1,1 +1,0 @@
-../../../../egs/yoloxochitl_mixtec/asr1/local/split_tr_dt_et.sh

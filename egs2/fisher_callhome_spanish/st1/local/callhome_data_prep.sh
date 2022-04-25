@@ -1,1 +1,0 @@
-../../../../egs/fisher_callhome_spanish/st1/local/callhome_data_prep.sh

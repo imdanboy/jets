@@ -1,1 +1,0 @@
-../../TEMPLATE/diar1/diar.sh

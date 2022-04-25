@@ -1,1 +1,0 @@
-../../jsut/tts1/cmd.sh

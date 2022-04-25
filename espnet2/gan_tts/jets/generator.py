@@ -1,5 +1,7 @@
 # Copyright 2021 Tomoki Hayashi
 #  Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+# Copyright 2022 Dan Lim
+#  Apache 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
 
 """Generator module in JETS.
 

@@ -1,1 +1,0 @@
-../../../../egs/mucs21_subtask1/asr1/local/download_data.sh

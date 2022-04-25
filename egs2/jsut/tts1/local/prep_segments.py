@@ -1,1 +1,0 @@
-../../../../egs/jsut/tts1/local/prep_segments.py

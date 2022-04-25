@@ -1,1 +1,0 @@
-../../../../egs/hub4_spanish/asr1/local/prepare_test_text.pl

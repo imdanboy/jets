@@ -1,1 +1,0 @@
-../../../../egs/hkust/asr1/local/hkust_data_prep.sh

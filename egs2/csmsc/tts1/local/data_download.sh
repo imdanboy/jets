@@ -1,1 +1,0 @@
-../../../../egs/csmsc/tts1/local/data_download.sh

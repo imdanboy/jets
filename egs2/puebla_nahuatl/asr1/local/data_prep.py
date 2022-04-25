@@ -1,1 +1,0 @@
-../../../../egs/puebla_nahuatl/asr1/local/data_prep.py
