@@ -15,7 +15,7 @@ JETS consists of FastSpeech2, HiFi-GAN and an Alignment Module. The model files 
 ```
 git clone https://github.com/imdanboy/jets.git
 ```
-2. patch the provided code to espnet
+2. download espnet and patch jets code to espnet
 ```
 cd jets; ./patch_to_espnet.sh
 ```
