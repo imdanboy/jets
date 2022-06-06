@@ -34,3 +34,6 @@ cd jets/espnet/egs2/ljspeech/tts1
 cd jets/espnet/egs2/kss/tts1
 ./run.sh --stage 1 --stop_stage 6 --ngpu 4
 ```
+
+## Note
+**JETS is now available in ESPnet officially since v.202205 !!!**
